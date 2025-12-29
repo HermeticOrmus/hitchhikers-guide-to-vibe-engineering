@@ -1,28 +1,36 @@
-# The Hitch-Hiker's Guide to Vibe Coding
+# The Hitch-Hiker's Guide to Vibe Engineering
 
 > **DON'T PANIC**
 
-*In many of the more relaxed civilizations on the Outer Eastern Rim of the Galaxy, the Hitch-Hiker's Guide to Vibe Coding has already supplanted the great Encyclopedia Galactica as the standard repository of all knowledge and wisdom, for though it has many omissions and contains much that is apocryphal, or at least wildly inaccurate, it scores over the older, more pedestrian work in two important respects.*
+*In many of the more relaxed civilizations on the Outer Eastern Rim of the Galaxy, the Hitch-Hiker's Guide to Vibe Engineering has already supplanted the great Encyclopedia Galactica as the standard repository of all knowledge and wisdom, for though it has many omissions and contains much that is apocryphal, or at least wildly inaccurate, it scores over the older, more pedestrian work in two important respects.*
 
 *First, it is slightly cheaper; and secondly it has the words* **DON'T PANIC** *inscribed in large friendly letters on its cover.*
 
 ---
 
-## What Is Vibe Coding?
+## What Is Vibe Engineering?
 
 In February 2025, [Andrej Karpathy coined the term](https://x.com/karpathy/status/1886192184808149383):
 
 > "There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
 
-**VIBE CODING** *(n.)*: The art of programming by describing what you want to an AI and letting it generate code, while you maintain creative direction and quality control. Named after the practice of "vibing" with the machine—a state of collaborative flow between human intent and artificial capability.
+**VIBE ENGINEERING** *(n.)*: The deliberate practice of building software through AI collaboration—describing intent, reviewing output, and iterating toward working systems. Distinguished from "vibe coding" by the emphasis on *engineering*: understanding what you build, owning what you ship, and knowing the difference between a prototype and production.
 
-The Guide's entry on Vibe Coding begins:
+The Guide's entry on Vibe Engineering begins:
 
-> "Vibe Coding is the second-best way to write software in the known universe. The best way, of course, is to have someone else do it entirely while you sip Pan Galactic Gargle Blasters. Since most developers cannot afford infinite monkeys or infinitely patient colleagues, Vibe Coding represents a reasonable compromise."
+> "Vibe Engineering is the second-best way to write software in the known universe. The best way, of course, is to have someone else do it entirely while you sip Pan Galactic Gargle Blasters. Since most developers cannot afford infinite monkeys or infinitely patient colleagues, Vibe Engineering represents a reasonable compromise."
+
+*Note: We call it "engineering" deliberately. Whether that's accurate is addressed in [Chapter 0](chapters/00-the-great-debate.md).*
 
 ---
 
 ## The Complete Guide
+
+### Part 0: Philosophy
+
+| Chapter | Title | Summary |
+|---------|-------|---------|
+| 0 | [The Great Debate](chapters/00-the-great-debate.md) | Is this real engineering? Both sides examined |
 
 ### Part I: Fundamentals
 
@@ -79,6 +87,19 @@ Match your vibe level to your risk level.
 
 ---
 
+## Honest Questions
+
+Before you proceed, ask yourself:
+
+1. **Can you debug it?** If the AI-generated code breaks, can you fix it?
+2. **Can you explain it?** Could you walk someone through what the code does?
+3. **Can you extend it?** When requirements change, can you modify it?
+4. **Can you own it?** Are you willing to be responsible for this in production?
+
+If you answered "no" to most of these, that's okay—for prototypes. For production, keep reading.
+
+---
+
 ## Quick Reference
 
 ### Before Prompting
@@ -115,7 +136,7 @@ This Guide draws wisdom from:
 ## How to Use This Guide
 
 1. **DON'T PANIC**
-2. Start with [Chapter 1](chapters/01-dont-panic.md)
+2. Start with [Chapter 0](chapters/00-the-great-debate.md) if you're skeptical, or [Chapter 1](chapters/01-dont-panic.md) if you're ready to build
 3. Read the chapters in order (or don't—it's your life)
 4. Reference the Field Guide entries as needed
 5. Make mistakes
@@ -143,7 +164,7 @@ This Guide is a living document, much like the original. Contributions are welco
 
 **Share and Enjoy!**
 
-*"Share and Enjoy" is the company motto of the Sirius Cybernetics Corporation, whose complaints division now covers most of the known universe. This is also good advice for Vibe Coding—share your prompts, enjoy the process, and file bugs when things inevitably go wrong.*
+*"Share and Enjoy" is the company motto of the Sirius Cybernetics Corporation, whose complaints division now covers most of the known universe. This is also good advice for Vibe Engineering—share your prompts, enjoy the process, and file bugs when things inevitably go wrong.*
 
 ---
 
