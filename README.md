@@ -42,6 +42,12 @@ The Guide's entry on Vibe Coding begins:
 | 7 | [The Restaurant at the End of the Sprint](chapters/07-restaurant-end-of-sprint.md) | Planning, iteration, and shipping |
 | 8 | [So Long, and Thanks for All the Code](chapters/08-so-long.md) | Knowing when to stop and ship |
 
+### Part III: Surviving Success
+
+| Chapter | Title | Summary |
+|---------|-------|---------|
+| 9 | [The Disaster Area](chapters/09-disaster-area.md) | When vibed MVPs meet production reality |
+
 ---
 
 ## Field Guide Entries
