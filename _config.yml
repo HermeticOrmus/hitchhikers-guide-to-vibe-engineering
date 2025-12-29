@@ -1,0 +1,7 @@
+title: The Hitch-Hiker's Guide to Vibe Engineering
+description: A humorous yet practical guide to AI-assisted development. DON'T PANIC.
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+show_downloads: false
