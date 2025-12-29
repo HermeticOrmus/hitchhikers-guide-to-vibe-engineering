@@ -62,6 +62,7 @@ The Guide's entry on Vibe Coding begins:
 | [Code Review](entries/code-review.md) | 🟢 Essential | Reviewing AI-generated code |
 | [Accept All](entries/accept-all.md) | 🟡 Context-Dependent | When to accept without reading |
 | [Testing](entries/testing.md) | 🟢 Essential | Verifying AI code works |
+| [MVP Sanity Check](entries/mvp-sanity-check.md) | 🟠 Danger | The 4-question diagnostic for shipped MVPs |
 
 ---
 
