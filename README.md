@@ -10,6 +10,10 @@
 
 ## What Is Vibe Coding?
 
+In February 2025, [Andrej Karpathy coined the term](https://x.com/karpathy/status/1886192184808149383):
+
+> "There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
+
 **VIBE CODING** *(n.)*: The art of programming by describing what you want to an AI and letting it generate code, while you maintain creative direction and quality control. Named after the practice of "vibing" with the machine—a state of collaborative flow between human intent and artificial capability.
 
 The Guide's entry on Vibe Coding begins:
@@ -18,55 +22,104 @@ The Guide's entry on Vibe Coding begins:
 
 ---
 
-## The Guide Entries
+## The Complete Guide
 
-### Essential Reading
+### Part I: Fundamentals
 
-- [DON'T PANIC: Getting Started](chapters/01-dont-panic.md)
-- [The Towel Principle: What Every Vibe Coder Should Carry](chapters/02-towel-principle.md)
-- [42: The Answer to Life, the Universe, and Your Codebase](chapters/03-forty-two.md)
+| Chapter | Title | Summary |
+|---------|-------|---------|
+| 1 | [DON'T PANIC](chapters/01-dont-panic.md) | Getting started without losing your mind |
+| 2 | [The Towel Principle](chapters/02-towel-principle.md) | Version control as your essential survival tool |
+| 3 | [42](chapters/03-forty-two.md) | Dealing with ambiguity and asking the right questions |
+| 4 | [The Babel Fish Problem](chapters/04-babel-fish.md) | Communication with AI and its failure modes |
 
-### Field Guide Entries
+### Part II: Applied Wisdom
 
-*Short, occasionally accurate entries on specific topics.*
-
-| Entry | Mostly Harmless? |
-|-------|------------------|
-| [Prompts](entries/prompts.md) | Mostly Harmless |
-| [Context Windows](entries/context-windows.md) | Caution Advised |
-| [Hallucinations](entries/hallucinations.md) | **DANGER** |
-| [Code Review](entries/code-review.md) | Essential |
+| Chapter | Title | Summary |
+|---------|-------|---------|
+| 5 | [Mostly Harmless](chapters/05-mostly-harmless.md) | Risk assessment and when to vibe freely |
+| 6 | [The Total Perspective Vortex](chapters/06-total-perspective-vortex.md) | Understanding AI's true limitations |
+| 7 | [The Restaurant at the End of the Sprint](chapters/07-restaurant-end-of-sprint.md) | Planning, iteration, and shipping |
+| 8 | [So Long, and Thanks for All the Code](chapters/08-so-long.md) | Knowing when to stop and ship |
 
 ---
 
-## The Babel Fish Problem
+## Field Guide Entries
 
-The Babel Fish, by effectively removing all barriers to communication between different races and cultures, has caused more and bloodier wars than anything else in the history of creation.
+*Short, occasionally accurate entries on specific topics.*
 
-Similarly, AI code generation—by effectively removing all barriers between "I have an idea" and "I have 10,000 lines of code"—has caused more technical debt than anything else in the history of software development.
+| Entry | Risk Level | Description |
+|-------|------------|-------------|
+| [Prompts](entries/prompts.md) | 🟢 Mostly Harmless | The anatomy of effective prompts |
+| [Context Windows](entries/context-windows.md) | 🟡 Caution Advised | Managing AI's limited memory |
+| [Hallucinations](entries/hallucinations.md) | 🔴 DANGER | When AI makes things up |
+| [Code Review](entries/code-review.md) | 🟢 Essential | Reviewing AI-generated code |
+| [Accept All](entries/accept-all.md) | 🟡 Context-Dependent | When to accept without reading |
+| [Testing](entries/testing.md) | 🟢 Essential | Verifying AI code works |
 
-The Guide offers this advice:
+---
 
-> "The key to successful Vibe Coding is knowing when NOT to code. Most problems don't need solutions. Most solutions don't need code. Most code doesn't need to exist."
+## The Risk Classification System
+
+This Guide uses a four-tier system inspired by the original Guide's planetary ratings:
+
+- 🟢 **Mostly Harmless** - If it breaks, nothing bad happens
+- 🟡 **Caution Advised** - Annoying but recoverable failures
+- 🟠 **Danger** - Real problems occur if this fails
+- 🔴 **Here Be Dragons** - Catastrophic consequences possible
+
+Match your vibe level to your risk level.
+
+---
+
+## Quick Reference
+
+### Before Prompting
+```
+[ ] I know what I'm building
+[ ] I know the constraints
+[ ] I know what "done" looks like
+```
+
+### The Karpathy Spectrum
+```
+"Fully give in to the vibes" ←——————→ "Read every line"
+        ↑                                      ↑
+    Prototypes                            Production
+```
+
+### The Street Rules
+1. **Context is currency** - Specific beats terrific
+2. **Verify before trust** - The AI can't test itself
+3. **Ship before perfect** - Done is better than ideal
+
+---
+
+## Inspirations & References
+
+This Guide draws wisdom from:
+
+- [Andrej Karpathy's "Vibe Coding" Tweet](https://x.com/karpathy/status/1886192184808149383) - The origin of the term
+- [*Vibe Coding: Mistakes and Tradeoffs*](https://www.manning.com/books/vive-coding-mistakes-and-tradeoffs) (Manning) - Practical guidance on AI-assisted development
+- Douglas Adams' *The Hitchhiker's Guide to the Galaxy* - The format and philosophy
 
 ---
 
 ## How to Use This Guide
 
 1. **DON'T PANIC**
-2. Read the entries
-3. Try the examples
-4. Make mistakes
-5. Learn from them
-6. **DON'T PANIC**
+2. Start with [Chapter 1](chapters/01-dont-panic.md)
+3. Read the chapters in order (or don't—it's your life)
+4. Reference the Field Guide entries as needed
+5. Make mistakes
+6. Learn from them
+7. **DON'T PANIC**
 
 ---
 
 ## Contributing
 
 This Guide is a living document, much like the original. Contributions are welcome from all sentient beings, and some non-sentient ones (we're looking at you, CI bots).
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
@@ -88,3 +141,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ---
 
 *This Guide is dedicated to Douglas Adams, who taught us that the universe is not only queerer than we suppose, but queerer than we CAN suppose. The same is true of large language models.*
+
+**— The Editors**
