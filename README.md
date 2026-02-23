@@ -1,4 +1,20 @@
-# The Hitch-Hiker's Guide to Vibe Engineering
+<p align="center">
+  <img src="https://ormus.solutions/mascot/pixellab_liquid_to_book.gif" alt="The Hitchhiker's Guide to Vibe Engineering" width="128" style="image-rendering: pixelated;" />
+</p>
+
+<h1 align="center">The Hitchhiker's Guide to Vibe Engineering</h1>
+
+<p align="center">
+  <em>DON'T PANIC -- A practical guide to AI-assisted development</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HermeticOrmus/hitchhikers-guide-to-vibe-engineering/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/hitchhikers-guide-to-vibe-engineering?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/hitchhikers-guide-to-vibe-engineering/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/hitchhikers-guide-to-vibe-engineering?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/hitchhikers-guide-to-vibe-engineering/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/hitchhikers-guide-to-vibe-engineering?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+</p>
+
+---
 
 > **DON'T PANIC**
 
