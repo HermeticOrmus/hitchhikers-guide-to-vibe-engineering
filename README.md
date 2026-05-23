@@ -187,3 +187,17 @@ This Guide is a living document, much like the original. Contributions are welco
 *This Guide is dedicated to Douglas Adams, who taught us that the universe is not only queerer than we suppose, but queerer than we CAN suppose. The same is true of large language models.*
 
 **— The Editors**
+
+---
+
+## Part of the Libre Open-Source Stack for Claude Code
+
+This repository is part of a growing family of open-source toolkits for Claude Code, each focused on a specific lane:
+
+- [LibreUIUX-Claude-Code](https://github.com/HermeticOrmus/LibreUIUX-Claude-Code) — UI/UX system (152 agents, 70 plugins, 76 commands, 74 skills)
+- [LibreGEO-Claude-Code](https://github.com/HermeticOrmus/LibreGEO-Claude-Code) — AI-search optimization for ChatGPT, Perplexity, Gemini, Google AI Overviews
+- [LibreEmbed-Claude-Code](https://github.com/HermeticOrmus/LibreEmbed-Claude-Code) — Embedded systems, firmware, and IoT development
+- [LibreGameDev-Claude-Code](https://github.com/HermeticOrmus/LibreGameDev-Claude-Code) — Game development across Godot, Unity, Unreal
+- [LibreFinTech-Claude-Code](https://github.com/HermeticOrmus/LibreFinTech-Claude-Code) — Financial technology development
+
+Star the family, not just one — that's how the suite stays coherent.
