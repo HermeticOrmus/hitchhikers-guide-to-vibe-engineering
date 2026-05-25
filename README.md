@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ormus.solutions/mascot/golden_swan.gif" alt="The Hitchhiker's Guide to Vibe Engineering" width="128" style="image-rendering: pixelated;" />
+  <img src="https://ormus.solutions/mascot/pixellab_liquid_to_compass.gif" alt="The Hitchhiker's Guide to Vibe Engineering" width="128" style="image-rendering: pixelated;" />
 </p>
 
 <h1 align="center">The Hitchhiker's Guide to Vibe Engineering</h1>
